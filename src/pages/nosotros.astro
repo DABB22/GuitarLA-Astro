@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Nosotros" description="Conoce todo acerca de nuestros productos y nuestra empresa">
+	<main class="contenedor">
+	  <h1 class="heading">Nosotros</h1>
+    <div class="contenido">
+      <img src="" alt="">
+      <div>
+      </div>
+    </div>
+	</main>
+</Layout>
+
+<style>
+  .contenido {
+      display: grid;
+      gap: 4rem;
+  }
+  @media (min-width: 768px) {
+      .contenido {
+          grid-template-columns: repeat(2, 1fr);
+          align-items: center;
+      }
+  }
+</style>
