@@ -1,10 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+//const url = `http://127.0.0.1:8082/api/guitarras`
+const url = `https://pokeapi.co/api/v2/pokemon/ditto`
+const res = await fetch (url)
+//const {data} = await res.json()
+const datos = await res.json()
+console.log(datos)
 ---
 
 <Layout title="Tienda" description="listado de todos nuestros productos - tienda">
 	<main class="contenedor">
-	<h1 class="heading">Tienda</h1>
+	<h1 class="heading">Nuestra Colección</h1>
 	</main>
 </Layout>
 

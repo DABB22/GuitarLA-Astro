@@ -1,15 +1,24 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import imgNosotros from '../img/nosotros.jpg'
 ---
 
 <Layout title="Nosotros" description="Conoce todo acerca de nuestros productos y nuestra empresa">
 	<main class="contenedor">
+
 	  <h1 class="heading">Nosotros</h1>
     <div class="contenido">
-      <img src="" alt="">
+
+      <img src={imgNosotros} alt="">
+
       <div>
+        <p>Integer blandit purus nulla, ut scelerisque diam semper a. Quisque lectus urna, luctus vitae commodo ut, hendrerit id ipsum. Mauris interdum tortor sed commodo euismod. Aenean leo ipsum, consectetur a nulla sit amet, commodo pretium est. Etiam sodales felis congue nibh interdum eleifend. Sed vel odio sit amet est sodales bibendum quis pharetra sem. Donec non fringilla mi. In hac habitasse platea dictumst.</p>
+
+        <p>Phasellus dolor nisi, dictum ultrices elit et, tincidunt aliquet quam. Suspendisse metus tellus, mattis vitae tellus quis, bibendum consequat libero. Fusce nulla sapien, fringilla quis nunc id, scelerisque mattis mauris. Sed venenatis egestas lectus. Etiam dictum massa massa, non rutrum felis sodales nec. </p>
       </div>
+
     </div>
+
 	</main>
 </Layout>
 
